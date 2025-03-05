@@ -1,1 +1,1 @@
-# b-reaso-benchmark
+This is the initial repository for the work b-reaso benchmark.
