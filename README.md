@@ -46,7 +46,7 @@ B-REASO is a Bengali educational assessment benchmark for large language models,
 
 ## Citation
 
-If you like, please cite the paper- here is a bibtex file:
+If you like, please cite the paper- here is the bibtex file:
 
 ```
 @article{hosain2025b-reaso,
