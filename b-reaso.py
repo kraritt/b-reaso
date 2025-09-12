@@ -288,12 +288,12 @@ if __name__ == '__main__':
     for subset_name in subsets:
         logging.info(f'Evaluating {subset_name}')
         test_data = load_dataset(
-            't/b-reaso',
+            'krarit/b-reaso',
             subset_name,
             split='test',
         )
         fs_data = load_dataset(
-            't/b-reaso',
+            'krarit/b-reaso',
             subset_name,
             split='dev',
         )
