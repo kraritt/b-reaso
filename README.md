@@ -75,8 +75,7 @@ $python3 b-reaso.py \
 If you like, please cite the paper- here is the bibtex file:
 
 ```
-@inproceedings{
-hosain2025breaso,
+@inproceedings{hosain2025breaso,
 title={B-{REASO}: A Multi-Level Multi-Faceted Bengali Evaluation Suite for Foundation Models},
 author={Md Tanzib Hosain and Md Kishor Morol},
 booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
