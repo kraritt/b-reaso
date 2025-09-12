@@ -49,10 +49,11 @@ B-REASO is a Bengali educational assessment benchmark for large language models,
 If you like, please cite the paper- here is the bibtex file:
 
 ```
-@article{hosain2025b-reaso,
-      title={B-REASO: A Multi-Level Multi-Faceted Bengali Evaluation Suite for Foundation Models}, 
-      author={Md Tanzib Hosain and Md Kishor Morol},
-      journal={arXiv preprint},
-      year={2025}
+@inproceedings{
+hosain2025breaso,
+title={B-{REASO}: A Multi-Level Multi-Faceted Bengali Evaluation Suite for Foundation Models},
+author={Md Tanzib Hosain and Md Kishor Morol},
+booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+year={2025}
 }
 ```
