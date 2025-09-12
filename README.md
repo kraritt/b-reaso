@@ -44,6 +44,32 @@ B-REASO is a Bengali educational assessment benchmark for large language models,
 | Mistral-7B-v0.1        | 33.53 \| 34.88            | 36.51 \| 36.72            | 27.82 \| 29.65            | 38.12 \| 38.04            | 35.02 \| 33.41            | 30.19 \| 32.18            |
 | OLMo-7B                | 26.27 \| 25.63            | 28.01 \| 27.45            | 20.83 \| 20.12            | 24.89 \| 23.91            | 33.54 \| 31.87            | 24.06 \| 24.20            |
 
+## Running Project
+
+To clone the project, run:
+
+	git clone https://github.com/kraritt/b-reaso && cd b-reaso
+
+To prepare a new conda or python virtual environment, run:
+	
+ 	pip install -r requirements.txt
+
+Parse the model generation to extract the prediction.
+
+Set environment variable ```API_KEY```.
+
+```
+$python3 b-reaso.py \
+	--backend openai \
+	--model [Model name] \
+	--temperature [temperature for generation] \
+	--max_tokens [max new tokens to generate] \
+	--subsets [Choose subsets of B-REASO (names splited by comma) for evalutaion. Default is 'ALL'] \
+	--log_dir [Directory for saving evaluation log] \
+	--few_shot_num [The number for few shot example. Range: [0, 5]. Default is 5.] \
+	--cot [Use CoT evaluation.]
+```
+
 ## Citation
 
 If you like, please cite the paper- here is the bibtex file:
