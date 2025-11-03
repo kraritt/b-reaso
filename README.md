@@ -7,7 +7,7 @@
 
 ## B-REASO
 
-This repo contains the evaluation code for the EMNLP Findings '25 paper ["B-REASO: A Multi-Level Multi-Faceted Bengali Evaluation Suite for Foundation Models"]().
+This repo contains the evaluation code for the EMNLP Findings '25 paper ["B-REASO: A Multi-Level Multi-Faceted Bengali Evaluation Suite for Foundation Models"](https://aclanthology.org/2025.findings-emnlp.492/).
 
 ## Introduction
 
