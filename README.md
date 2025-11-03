@@ -75,10 +75,11 @@ $python3 b-reaso.py \
 If you like, please cite the paper- here is the bibtex file:
 
 ```
-@inproceedings{hosain2025breaso,
-title={B-{REASO}: A Multi-Level Multi-Faceted Bengali Evaluation Suite for Foundation Models},
-author={Md Tanzib Hosain and Md Kishor Morol},
-booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
-year={2025}
+@inproceedings{hosain2025b,
+  title={B-REASO: A Multi-Level Multi-Faceted Bengali Evaluation Suite for Foundation Models},
+  author={Hosain, Md Tanzib and Morol, Md Kishor},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  pages={9260--9274},
+  year={2025}
 }
 ```
